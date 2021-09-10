@@ -1,5 +1,3 @@
-<h1 align="center">[WIP] Check email spoof vulnerability</h1>
-
 
  ```
    ____ _               _      _____                 _ _   ____                     __ 
