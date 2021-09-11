@@ -10,6 +10,7 @@
 
 The objective of this project is to automate email spoof vulnerability checking.
 The app checks the DNS txt records of the host entered to make the decision.
+[OWASP top ten - Misconfiguration](https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration)
 
 ## Disclaimer
 
