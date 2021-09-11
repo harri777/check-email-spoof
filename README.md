@@ -36,8 +36,6 @@ USE WITH RESPONSABILITY!
 ## 1.2 - Choose option
 
 ```
-Choice a number
-
 ############ ENTER OPTION ############
 [1] - Check vulnerability an host
 [2] - Make send test email
@@ -61,12 +59,14 @@ or
 
 ## 2.1 - Option [2]:
 
+#### Fake email
 ```
 Enter the fake email you would like to test.
 
 Enter to fake email to test:
 example: admin@example.com
 ```
+#### From email
 ```
 Enter the email that will be used to send.
 Here you need a valid email.
@@ -77,22 +77,26 @@ These big public servers won't let you run the spoof process.
 Enter to from email:
 example: senderemail@mydomain.com
 ```
+#### Password
 ```
 Enter the password from the email you entered in the previous step.
 
 Enter to from password:
 example: myP@ssw0rd
 ```
+#### SMTP Server
 ```
 Enter your SMTP or mail sending server with the server.
 
 Enter to from smtp server:
 example: smtp.mydomain.com
 ```
+#### Port
 ```
 Enter to from port:
 example: 465
 ```
+#### Receive email
 ```
 Enter the email you want to receive the message.
 
@@ -106,6 +110,10 @@ result:
 or
 ! Error
 ```
+
+
+## Roadmap
+- Use docker
 
 ## Author
 - Harrisson Ricardo Biaggio
