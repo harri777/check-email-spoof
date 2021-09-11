@@ -2,6 +2,7 @@ package main
 
 import (
 	check "check-email-spoof/src/check"
+	email "check-email-spoof/src/email"
 	"fmt"
 	"os"
 
@@ -27,11 +28,11 @@ func showName() {
 }
 
 func showMenu() {
-	println("\n###### ENTER OPTION ######")
+	println("\n############ ENTER OPTION ############ \n")
 	println("[1] - Check vulnerability an host")
 	println("[2] - Make send test email")
 	println("[0] - Exit")
-	println("##########################\n")
+	println("\n######################################## \n")
 }
 
 func callFeature(option int) {
@@ -42,7 +43,7 @@ func callFeature(option int) {
 		check.CheckVulnerability(host)
 
 	case 2:
-		println("IN PROGRESS")
+		email.SendEmail("a")
 	case 0:
 		println("Exit.")
 		os.Exit(0)

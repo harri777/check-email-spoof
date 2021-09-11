@@ -14,7 +14,7 @@ func CheckVulnerability(host string) {
 
 	for _, txt := range txtrecords {
 		if strings.Contains(txt, "~all") || strings.Contains(txt, "?all") {
-			color.Red("\nThe host IS VULNERABLE !\n")
+			color.Yellow("\nThe host IS VULNERABLE !\n")
 			return
 		}
 	}
