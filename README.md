@@ -112,6 +112,9 @@ or
 ! Error
 ```
 
+## I found a vulnerable host, now what?
+- Report!
+- To fix the fault, just change the spf registry: `~all` or `?all` to `-all`
 
 ## Roadmap
 - Use docker
