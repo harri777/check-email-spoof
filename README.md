@@ -26,8 +26,13 @@ USE WITH RESPONSABILITY!
 
 - [Go lang](https://golang.org/dl/)
 
+## Install external dependencies:
+```
+$ go get
+```
 
-## 1 - Run project
+
+## 1.1 - Run project
 
 ```
   $ go run src/main.go
